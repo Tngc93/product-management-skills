@@ -1,0 +1,12 @@
+{
+  "name": "product-management-skills",
+  "description": "Product management skills for coding agents",
+  "owner": { "name": "Berk Arcak", "url": "https://github.com/Tngc93" },
+  "plugins": [
+    {
+      "name": "product-management-skills",
+      "source": "./",
+      "description": "Write PRDs, slice stories, prioritise with RICE/ICE, write acceptance criteria and stakeholder updates, and review specs."
+    }
+  ]
+}

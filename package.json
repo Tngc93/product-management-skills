@@ -1,0 +1,23 @@
+{
+  "name": "product-management-skills",
+  "version": "0.1.0",
+  "description": "Product management skills for Claude Code and Codex: PRDs, story slicing, RICE/ICE prioritisation, acceptance criteria, stakeholder updates and spec reviews, with a deterministic linter and scorer.",
+  "type": "module",
+  "bin": {
+    "pm-skills": "cli/pm-skills.mjs"
+  },
+  "files": ["cli", "src", "skills", ".claude-plugin", ".codex-plugin", "examples", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint:examples": "node cli/pm-skills.mjs lint examples/good"
+  },
+  "keywords": ["product-management", "prd", "user-stories", "rice", "acceptance-criteria", "gherkin", "claude-code", "codex", "skills"],
+  "author": "Berk Arcak (https://github.com/Tngc93)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/Tngc93/product-management-skills.git" },
+  "bugs": { "url": "https://github.com/Tngc93/product-management-skills/issues" },
+  "homepage": "https://github.com/Tngc93/product-management-skills#readme"
+}
