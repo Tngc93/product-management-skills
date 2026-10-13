@@ -1,0 +1,10 @@
+{
+  "name": "product-management-skills",
+  "version": "0.1.0",
+  "description": "PRDs, story slicing, RICE/ICE prioritisation, acceptance criteria, stakeholder updates and spec reviews, checked by a deterministic linter and scorer.",
+  "author": { "name": "Berk Arcak", "url": "https://github.com/Tngc93" },
+  "homepage": "https://github.com/Tngc93/product-management-skills",
+  "repository": "https://github.com/Tngc93/product-management-skills",
+  "license": "MIT",
+  "keywords": ["product-management", "prd", "user-stories", "rice", "acceptance-criteria"]
+}
