@@ -116,7 +116,7 @@ test('cli: lint exit codes, score --write, templates', () => {
   for (const t of ['write-prd', 'slice-stories', 'prioritize', 'acceptance-criteria', 'stakeholder-update', 'review-spec']) {
     const out = run('template', t);
     assert.equal(out.status, 0, t);
-    assert.match(out.stdout, /^---\ntype: /, t);
+    assert.match(out.stdout, /^---\r?\ntype: /, t);
   }
   assert.equal(run('template', 'nope').status, 2);
   assert.equal(run('nope').status, 2);
